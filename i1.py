@@ -27,13 +27,13 @@ def f2():
 		delete_window.withdraw()
 		update_window.withdraw()
 		firebaseConfig = {
-			"apiKey": "AIzaSyBNVeleDKxeZTlCoZbWAiJNVCcAdp9dFNY",
-			"authDomain": "empmgtsys-9aae3.firebaseapp.com",
-			"databaseURL": "https://empmgtsys-9aae3-default-rtdb.asia-southeast1.firebasedatabase.app",
-			"projectId": "empmgtsys-9aae3",
-			"storageBucket": "empmgtsys-9aae3.appspot.com",
-			"messagingSenderId": "1018747960707",
-			"appId": "1:1018747960707:web:8b7bc667e89059d3d24ab6"
+			"apiKey": "##Your database api key##",
+			"authDomain": "##Your database authDomain##",
+			"databaseURL": "##Your database URL##",
+			"projectId": "##Your database projectID##",
+			"storageBucket": "##Your database StorageBucket##",
+			"messagingSenderId": "##Your Database SenderID##",
+			"appId": "##Your Database APP ID##"
 		}
 		firebase=pyrebase.initialize_app(firebaseConfig)
 		db = firebase.database()
@@ -102,13 +102,13 @@ def f5():
 		view_window.deiconify()
 		main_window.withdraw()
 		firebaseConfig = {
-			"apiKey": "AIzaSyBNVeleDKxeZTlCoZbWAiJNVCcAdp9dFNY",
-			"authDomain": "empmgtsys-9aae3.firebaseapp.com",
-			"databaseURL": "https://empmgtsys-9aae3-default-rtdb.asia-southeast1.firebasedatabase.app",
-			"projectId": "empmgtsys-9aae3",
-			"storageBucket": "empmgtsys-9aae3.appspot.com",
-			"messagingSenderId": "1018747960707",
-			"appId": "1:1018747960707:web:8b7bc667e89059d3d24ab6"
+			"apiKey": "##Your database api key##",
+			"authDomain": "##Your database authDomain##",
+			"databaseURL": "##Your database URL##",
+			"projectId": "##Your database projectID##",
+			"storageBucket": "##Your database StorageBucket##",
+			"messagingSenderId": "##Your Database SenderID##",
+			"appId": "##Your Database APP ID##"
 		}
 		firebase=pyrebase.initialize_app(firebaseConfig)
 		db = firebase.database()
@@ -203,13 +203,13 @@ def usave():
 	try:
 		id=int(ud_ent_id.get())
 		firebaseConfig = {
-			"apiKey": "AIzaSyBNVeleDKxeZTlCoZbWAiJNVCcAdp9dFNY",
-			"authDomain": "empmgtsys-9aae3.firebaseapp.com",
-			"databaseURL": "https://empmgtsys-9aae3-default-rtdb.asia-southeast1.firebasedatabase.app",
-			"projectId": "empmgtsys-9aae3",
-			"storageBucket": "empmgtsys-9aae3.appspot.com",
-			"messagingSenderId": "1018747960707",
-			"appId": "1:1018747960707:web:8b7bc667e89059d3d24ab6"
+			"apiKey": "##Your database api key##",
+			"authDomain": "##Your database authDomain##",
+			"databaseURL": "##Your database URL##",
+			"projectId": "##Your database projectID##",
+			"storageBucket": "##Your database StorageBucket##",
+			"messagingSenderId": "##Your Database SenderID##",
+			"appId": "##Your Database APP ID##"
 		}
 		firebase=pyrebase.initialize_app(firebaseConfig)
 		db=firebase.database()
@@ -258,13 +258,13 @@ def asave():
 	try:
 		id=int(aw_ent_id.get())
 		firebaseConfig = {
-			"apiKey": "AIzaSyBNVeleDKxeZTlCoZbWAiJNVCcAdp9dFNY",
-			"authDomain": "empmgtsys-9aae3.firebaseapp.com",
-			"databaseURL": "https://empmgtsys-9aae3-default-rtdb.asia-southeast1.firebasedatabase.app",
-			"projectId": "empmgtsys-9aae3",
-			"storageBucket": "empmgtsys-9aae3.appspot.com",
-			"messagingSenderId": "1018747960707",
-			"appId": "1:1018747960707:web:8b7bc667e89059d3d24ab6"
+			"apiKey": "##Your database api key##",
+			"authDomain": "##Your database authDomain##",
+			"databaseURL": "##Your database URL##",
+			"projectId": "##Your database projectID##",
+			"storageBucket": "##Your database StorageBucket##",
+			"messagingSenderId": "##Your Database SenderID##",
+			"appId": "##Your Database APP ID##"
 		}
 		firebase=pyrebase.initialize_app(firebaseConfig)
 		db=firebase.database()
@@ -322,13 +322,13 @@ def dsave():
 	try:
 		id=int(dw_ent_id.get())
 		firebaseConfig = {
-			"apiKey": "AIzaSyBNVeleDKxeZTlCoZbWAiJNVCcAdp9dFNY",
-			"authDomain": "empmgtsys-9aae3.firebaseapp.com",
-			"databaseURL": "https://empmgtsys-9aae3-default-rtdb.asia-southeast1.firebasedatabase.app",
-			"projectId": "empmgtsys-9aae3",
-			"storageBucket": "empmgtsys-9aae3.appspot.com",
-			"messagingSenderId": "1018747960707",
-			"appId": "1:1018747960707:web:8b7bc667e89059d3d24ab6"
+			"apiKey": "##Your database api key##",
+			"authDomain": "##Your database authDomain##",
+			"databaseURL": "##Your database URL##",
+			"projectId": "##Your database projectID##",
+			"storageBucket": "##Your database StorageBucket##",
+			"messagingSenderId": "##Your Database SenderID##",
+			"appId": "##Your Database APP ID##"
 		}
 		firebase=pyrebase.initialize_app(firebaseConfig)
 		db=firebase.database()
@@ -353,13 +353,13 @@ def dsave():
 	
 def charts():
 	firebaseConfig = {
-		"apiKey": "AIzaSyBNVeleDKxeZTlCoZbWAiJNVCcAdp9dFNY",
-		"authDomain": "empmgtsys-9aae3.firebaseapp.com",
-		"databaseURL": "https://empmgtsys-9aae3-default-rtdb.asia-southeast1.firebasedatabase.app",
-		"projectId": "empmgtsys-9aae3",
-		"storageBucket": "empmgtsys-9aae3.appspot.com",
-		"messagingSenderId": "1018747960707",
-		"appId": "1:1018747960707:web:8b7bc667e89059d3d24ab6"
+		"apiKey": "##Your database api key##",
+			"authDomain": "##Your database authDomain##",
+			"databaseURL": "##Your database URL##",
+			"projectId": "##Your database projectID##",
+			"storageBucket": "##Your database StorageBucket##",
+			"messagingSenderId": "##Your Database SenderID##",
+			"appId": "##Your Database APP ID##"
 	}
 	firebase=pyrebase.initialize_app(firebaseConfig)
 	db=firebase.database()
@@ -425,6 +425,8 @@ mw_btn_update=Button(main_window,text="Update",font=f,width=10,command=f3)
 mw_btn_delete=Button(main_window,text="Delete",font=f,width=10,command=f4)
 mw_btn_charts=Button(main_window,text="Charts",font=f,width=10,command=charts)
 f2=('Courier New',14,"bold")
+
+#(Optional) For showing Quote on your window
 #res=requests.get("https://www.brainyquote.com/quote_of_the_day")
 #data=bs4.BeautifulSoup(res.text,"html.parser")
 #info=data.find("img",{"class":"bqPhotoFullDesktop"})
